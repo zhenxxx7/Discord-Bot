@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3vv", //Support Server Link
-  Token: process.env.Token || "NzQ3ODgyMzQ4NDY4NzY0NzAy.GEhfjN.huCS69iAxZFjD8TApOHe-4pov9sN5hhwYfrkwU", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "747882348468764702", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "7QsgxxgKsHEz4OcaYXVnte7drHKQdxjq", //Discord Client Secret
+  Token: process.env.Token || "", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -28,15 +28,15 @@ module.exports = {
   //Lavalink
   Lavalink: {
     id: "Main",
-    host: "lavalink.oops.wtf",
-    port: 443, // The port that lavalink is listening to. This must be a number!
-    pass: "www.freelavalink.ga",
-    secure: true, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
+    host: "",
+    port: 123, // The port that lavalink is listening to. This must be a number!
+    pass: "",
+    secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || " c060a5c729be42ddbd6294872f745bbe", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "676e432b812249c7a339ee45b4c6e29e", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
   },
 };

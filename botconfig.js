@@ -3,7 +3,7 @@ module.exports = {
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3vv", //Support Server Link
+  SupportServer: "https://discord.gg/n4fZkq3vuS", //Support Server Link
   Token: process.env.Token || "NzQ3ODgyMzQ4NDY4NzY0NzAy.Gwte90.efdKwAFO_56-3MqE4wdTVfMqAuuDJDcpFbPhS4", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "747882348468764702", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "o332H59uhLceWvONn2aiy5TXl9XVD5yJ", //Discord Client Secret

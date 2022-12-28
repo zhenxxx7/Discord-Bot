@@ -30,9 +30,9 @@ module.exports = {
   // The default one should work fine, altho if you have issue with it, you can create your own or use another public lavalink.
   Lavalink: {
     id: "Main",
-    host: "node1.kartadharta.xyz",
+    host: "ssl.freelavalink.ga",
     port: 443, // The port that lavalink is listening to. This must be a number!
-    pass: "kdlavalink",
+    pass: "www.freelavalink.ga",
     secure: true, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
 

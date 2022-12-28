@@ -133,11 +133,6 @@ module.exports = {
             inline: true,
           },
           {
-            name: ":busts_in_silhouette: Users",
-            value: `┕\`${client.users.cache.size}\``,
-            inline: true,
-          },
-          {
             name: ":control_knobs: API Latency",
             value: `┕\`${client.ws.ping}ms\``,
             inline: true,

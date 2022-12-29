@@ -138,6 +138,7 @@ module.exports = {
             inline: true,
           }
         );
+        
         embed.addFields(
           {
             name: ":robot: Version",

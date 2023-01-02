@@ -3,10 +3,10 @@ module.exports = {
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/n4fZkq3vuS", //Support Server Link
-  Token: process.env.Token || "NzQ3ODgyMzQ4NDY4NzY0NzAy.Gwte90.efdKwAFO_56-3MqE4wdTVfMqAuuDJDcpFbPhS4", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "747882348468764702", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "o332H59uhLceWvONn2aiy5TXl9XVD5yJ", //Discord Client Secret
+  SupportServer: "", //Support Server Link
+  Token: process.env.Token || "", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -30,15 +30,15 @@ module.exports = {
   // The default one should work fine, altho if you have issue with it, you can create your own or use another public lavalink.
   Lavalink: {
     id: "Main",
-    host: "ssl.freelavalink.ga",
+    host: "",
     port: 443, // The port that lavalink is listening to. This must be a number!
-    pass: "www.freelavalink.ga",
+    pass: "",
     secure: true, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "c060a5c729be42ddbd6294872f745bbe", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "676e432b812249c7a339ee45b4c6e29e", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
   },
 };
